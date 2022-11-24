@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project( 02_a_04 )
+project( algorithm )
 
 add_executable(program src/main.cpp src/Calculator.cpp)
 
