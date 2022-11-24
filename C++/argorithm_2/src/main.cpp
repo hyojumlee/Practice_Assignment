@@ -1,5 +1,4 @@
 #include "trans_bin.hpp"
-
 #include <iostream>
 
 int main(){
@@ -9,7 +8,8 @@ int main(){
     std::cout << "Input binary number : ";
     getline(std::cin, input, '\n');
     bin.set_string(input);
-
+	
+	//예외처리
     if (false == bin.valid_check()) {
         std::cout << "Input value error!(binary, max size : 32)" << std::endl;
         exit(-1) ;

@@ -1,5 +1,4 @@
 #include "trans_bin.hpp"
-
 #include <iostream>
 #include <cmath>
 

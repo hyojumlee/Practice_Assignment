@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(practice)
+project(argorithm)
 
 add_executable(program src/main.cpp src/trans_bin.cpp)
 
