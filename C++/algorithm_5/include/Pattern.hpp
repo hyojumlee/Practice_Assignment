@@ -3,6 +3,7 @@
 
 class Pattern {
 public:
+	//make triangle pattern
     static void trianglePattern(const int num);
     static bool validCheck(const int num);
 };

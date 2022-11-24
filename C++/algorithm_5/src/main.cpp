@@ -1,5 +1,4 @@
 #include "Pattern.hpp"
-
 #include <iostream>
 
 int main() {

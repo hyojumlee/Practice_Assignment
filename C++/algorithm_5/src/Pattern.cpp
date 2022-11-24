@@ -1,5 +1,4 @@
 #include "Pattern.hpp"
-
 #include<iostream>
 
 void Pattern::trianglePattern(const int num) {
