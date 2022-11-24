@@ -1,6 +1,6 @@
 #include "words_count.hpp"
 
-int Words::words_count(const std::string& input_s) {
+int Words::words_count(const std::string& input_s) {	
     bool flag = false;
     int words = 0;
 

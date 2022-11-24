@@ -1,5 +1,4 @@
 #include "words_count.hpp"
-
 #include<iostream>
 
 int main(){
