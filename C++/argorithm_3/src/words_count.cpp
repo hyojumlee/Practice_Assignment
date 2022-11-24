@@ -14,5 +14,6 @@ int Words::words_count(const std::string& input_s) {
             }
         }
     }
+
     return words;
 }

@@ -5,7 +5,7 @@ int main(){
     std::string input_s;
     int words = 0;
     
-    std::cout << "Input string : ";
+    std::cout << "Input String : ";
     std::getline(std::cin, input_s, '\n');
 
     words = Words::words_count(input_s);

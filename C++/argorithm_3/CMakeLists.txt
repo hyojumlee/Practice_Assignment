@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project( 02_a_03 )
+project( algorithm )
 
 add_executable(program src/main.cpp src/words_count.cpp)
 

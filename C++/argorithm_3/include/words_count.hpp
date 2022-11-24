@@ -5,6 +5,7 @@
 
 class Words{
 public:
+	//count words in the string
     static int words_count(const std::string& input_s);
 };
 
