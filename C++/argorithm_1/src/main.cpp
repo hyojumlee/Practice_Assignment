@@ -1,5 +1,4 @@
 #include "factorial.hpp"
-
 #include <iostream>
 
 int main()
@@ -10,7 +9,7 @@ int main()
 
     std::cout << "Input number: ";
     std::cin >> number;
-
+	//예외처리
     if (false == Factorial::valid_check(number)) {
         std::cout << "Invalid value!!(valid value : 1 ~ 20)" << std::endl;
         exit(-1);

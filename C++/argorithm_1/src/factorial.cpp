@@ -1,7 +1,7 @@
 #include "factorial.hpp"
-
 #include <iostream>
 
+//재귀함수를 사용하지 않는 Factorial 함수
 uint64_t Factorial::calc_fact(const uint64_t num)
 {
     uint64_t calc_result = 1;
@@ -12,7 +12,7 @@ uint64_t Factorial::calc_fact(const uint64_t num)
 
     return calc_result;
 }
-
+//재귀함수를 사용한 Factorial 함수
 uint64_t Factorial::recursion_fact(const uint64_t num)
 {
     uint64_t recu_result = 1;
