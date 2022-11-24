@@ -2,7 +2,6 @@
 #include <iostream>
 #include <sys/ioctl.h>
 #include <unistd.h>
-
 #define SPACE "   "
 
 void Circle::createCircle(const int diameter) {

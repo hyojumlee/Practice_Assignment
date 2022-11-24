@@ -3,9 +3,11 @@
 
 class Circle {
 public:
+	//make circle
     static void createCircle(const int diameter);
     static bool validCheck(const int diameter);
-    static int winSize();
+    //check terminal size
+	static int winSize();
 };
 
 #endif // __CIRCLE_HPP__
